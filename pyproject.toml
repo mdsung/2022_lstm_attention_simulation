@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "2022_lstm_attention_example"
+version = "0.1.0"
+description = ""
+authors = ["MinDong <mdskylover@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^1.12.0"
+numpy = "^1.23.1"
+matplotlib = "^3.5.2"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.10.1"
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
